@@ -1,0 +1,333 @@
+body {
+
+    text-align: center;
+    background-color: white;
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.item {
+    
+justify-content: center;
+    margin: 5%;
+    background-color:  rgb(4, 67, 88);
+    color: gray;
+    border:  solid 3px rgb(73, 88, 102);
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px;
+    width:auto;
+    flex-wrap: wrap;
+   
+    
+}
+
+.card {
+
+    background-color: rgba(66, 53, 53, 0.733);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px; color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    text-align: center;
+
+
+
+}
+
+
+.card:hover {
+
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+    transform: translateY(-5px);
+}
+
+
+.enrollment,#sign-up-button {
+
+    border: solid 3px gray;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 25px;
+    font-weight: 50px;
+    color: rgb(0, 255, 179);
+    width: 60%;
+    background-color: black;
+    
+}
+
+img {
+
+    margin: auto;
+    padding: 0px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(1, 28, 37);
+    height: auto;
+    border: solid turquoise;
+    width: 100%;
+
+
+}
+
+p {
+
+    color: rgb(247, 215, 215);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#motto {
+
+    margin: 10px;
+    color: springgreen;
+    font-style: oblique;
+}
+
+
+h1, h2 {
+
+    color: rgb(152, 217, 219);
+    margin: 3px;
+}
+
+a {
+
+
+color: rgb(97, 255, 176);
+    font-weight: 40px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+.price {
+
+    font-size: 25px;
+    font-weight: 40px;
+    color: springgreen;
+}
+
+
+.course-title {
+
+    color: turquoise;
+    font-size: 25px;
+    font-style: oblique;
+    font-family:monospace;
+    font-weight: bold;
+}
+
+.footer {
+
+    background-color: rgb(82, 10, 150);
+    width:auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+header{
+    width:98vw;
+    position:relative;
+    top: 0;
+    z-index:10;
+    justify-self: center;
+    margin: 20px;
+    border: solid 2px gray;
+    border-radius: 30px 0px 30px 0px;
+
+}
+
+
+
+.navBar{
+    background:var(--overlay);
+    height: 3em;
+    padding:0.75em;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset var(--overlayBoxShadow);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur;
+}
+.navBar nav{
+    padding:0 1em;
+    display:flex;
+    justify-content:end;
+    align-items:center;
+}
+
+
+.navBar-item{
+    text-decoration:none;
+    font: bold 1.5em Comic;
+    margin-left: 2em;
+}
+
+.active{
+    color: var(--primaryLight);
+}
+
+#home-nav {
+
+    color: rgb(17, 112, 103);
+}
+
+.head {
+
+    background-color: black;
+    text-align: left;
+    padding: 30px;
+}
+
+legend {
+    color: orange;
+}
+
+
+label {
+
+    color: rgb(39, 236, 154);
+}
+
+fieldset {
+
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px;
+    border: solid 5px gray;
+    padding: 10px;
+}
+
+
+
+.submit-button {
+
+    background-color: rgb(1, 126, 84);
+    color: rgb(201, 199, 199);
+    margin: 40px;
+    padding: 30px;
+}
+
+input {
+
+    color: rgb(22, 133, 122);
+    border: solid 2px gray;
+    border-radius: 5px 5px 5px 5px;
+    margin:5px;
+}
+
+
+strong {
+
+    font-size:xx-large;
+    font-weight: bolder;
+    font-style:oblique;
+    font-family:cursive;
+    color:rgb(65, 249, 255);
+    margin: 40px;
+}
+
+#logo {
+
+    height: auto;
+    width: auto;
+}
+
+li {
+
+    color: rgb(175, 139, 139);
+    margin: 10px;
+
+}
+
+
+
+em {
+    color: springgreen;
+}
+
+
+
+
+
+  .slider, .unemployment-data {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.slide, .slide-data {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slide.active, .slide-data.active1 {
+  opacity: 1;
+}
+
+.slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.icon {
+
+    color: yellow;
+}
+
+
+#payment-success-message {
+
+    color: springgreen;
+}
+
+.list-item {
+
+    color: springgreen;
+}
+
+
+.ambition {
+
+    color: rgb(128, 128, 128);
+}
+
+
+.entrepreneural-journey-heading {
+
+    margin: 40px;
+}
+
+#introduction-paragraph , .barrier-and-solution {
+
+    color:rgba(108, 255, 211, 0.89);
+}
